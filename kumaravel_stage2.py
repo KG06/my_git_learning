@@ -19,3 +19,10 @@ operand = str(input("Enter Operand: "))
 result = perform_action(number1, number2, operand)
 
 print(result)
+
+if(result > 0): 
+    print("Positive")
+elif result < 0:
+    print("Negative")
+else:
+    print("Zero")
